@@ -19,7 +19,7 @@ Example:
 For the GitHub issue at github.com/USER/REPO/issues/123 and your github token in the environment variable GITHUB_TOKEN
 
 `solve-issue GITHUB_TOKEN https://github.com/USER/REPO 123 --model gpt-4o`
-
+`dagger call solve-issue --githubToken=GITHUB_TOKEN --repo=https://github.com/USER/REPO --issueId=123`
 ### PR Feedback
 
 When the GoCoder has created a PR, you can give it follow-up feedback to iterate on the solution.
